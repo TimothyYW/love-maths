@@ -1,4 +1,6 @@
-.body {
+/* --------- Global style */
+
+body {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: #445361;
@@ -109,12 +111,12 @@
     transition: all 0.5s;
 }
 
-.btn--big::after{
+.btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
     position: relative;
-    left: -0.5rem;
+    left: -0.5em;
 }
 
 .btn--blue {
